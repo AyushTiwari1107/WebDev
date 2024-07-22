@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1> Practice to create from feature.</h1>
+    
+    <form action="post" >
+       
+        <div>
+            <label for="Name"> First Name</label>
+            <input type="text" id="Name" name ="First Name" placeholder="First Name">
+
+            <label for="Last Name"> Last Name</label>
+            <input type="text" id="Last Name" name="Last Name" placeholder="Last Name">
+            
+        </div>
+        <br>
+        <div>
+            <label for="Email Address"> Email Address</label>
+            <input type="email" id="Email Address" name="Email Address" placeholder="Email">
+        </div>
+  <br>
+        <div>
+            <label for="DOB">DOB</label>
+            <input type="date" id="DOB" name="DOB" placeholder="DOB">
+
+        </div>
+        <label>Gender:</label>
+        <div>
+            <input type="radio" id="gender_male" name="gender" value="male" required>
+            <label for="gender_male">Male</label>
+        </div>
+        <div>
+            <input type="radio" id="gender_female" name="gender" value="female" required>
+            <label for="gender_female">Female</label>
+        </div>
+        <div>
+            <input type="radio" id="gender_other" name="gender" value="other" required>
+            <label for="gender_other">Other</label>
+        </div>
+        <div>
+            <label for="Address">Address</label>
+            <br>
+           <textarea name="Address" id="" cols="30" rows="10"></textarea>
+        </div>
+        <br>
+        <div>
+            <select name="occupation">
+                <option value="IT Department"> IT Department</option>
+                <option value="Software Development"> Software Development</option>
+                <option value="Sales">Sales</option>
+            </select>
+        <label for="agree">All the information that you have provided are correct as per your knowledege</label>
+        <input type="checkbox" name="agree" id="agree">
+
+
+</div>
+<br>
+<button>Submit</button>
+        
+    </form>
+</body>
+</html>
